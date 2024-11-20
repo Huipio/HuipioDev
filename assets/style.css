@@ -1,0 +1,124 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Foto de perfil */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 30px;
+}
+
+.about{
+    text-align: justify;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+/* Artículos (Experiencia Laboral) */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 1.4em;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+article p {
+    margin-left: 10px;
+    font-size: 1em;
+    color: #7f8c8d;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header h2 {
+        font-size: 1.2em;
+    }
+
+    .profile-picture img {
+        width: 120px;
+        height: 120px;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    article h3 {
+        font-size: 1.2em;
+    }
+}
